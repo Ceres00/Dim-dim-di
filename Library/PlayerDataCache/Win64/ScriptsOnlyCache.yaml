@@ -1,9 +1,12 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - Billboard
     - CameraMovement
     - CharacterInsantiate
+    - Combat
     - Forwaed
+    - HealthBar
     - Manage
     - Movement
     PhotonUnityNetworking.Demos.dll:
@@ -26,8 +29,6 @@ ScriptsOnlyBuild:
     - Photon.Pun.ServerSettings
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    Unity.Timeline.dll:
-    - UnityEngine.Timeline.TimelineAsset
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
@@ -117,35 +118,41 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12956}
     - Class: 114
-      Script: {instanceID: 13000}
+      Script: {instanceID: 12960}
     - Class: 114
-      Script: {instanceID: 13220}
+      Script: {instanceID: 13002}
     - Class: 114
-      Script: {instanceID: 13318}
+      Script: {instanceID: 13222}
     - Class: 114
-      Script: {instanceID: 13430}
+      Script: {instanceID: 13320}
     - Class: 114
-      Script: {instanceID: 13542}
+      Script: {instanceID: 13432}
     - Class: 114
-      Script: {instanceID: 13562}
+      Script: {instanceID: 13544}
     - Class: 114
-      Script: {instanceID: 13874}
+      Script: {instanceID: 13564}
     - Class: 114
-      Script: {instanceID: 13902}
+      Script: {instanceID: 13876}
     - Class: 114
       Script: {instanceID: 13904}
     - Class: 114
-      Script: {instanceID: 13918}
+      Script: {instanceID: 13906}
+    - Class: 114
+      Script: {instanceID: 13920}
     - Class: 114
       Script: {instanceID: 14096}
     - Class: 114
-      Script: {instanceID: 14656}
+      Script: {instanceID: 14572}
     - Class: 114
-      Script: {instanceID: 14772}
+      Script: {instanceID: 14658}
     - Class: 114
-      Script: {instanceID: 14826}
+      Script: {instanceID: 14774}
     - Class: 114
-      Script: {instanceID: 14842}
+      Script: {instanceID: 14828}
+    - Class: 114
+      Script: {instanceID: 14844}
+    - Class: 114
+      Script: {instanceID: 14866}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -827,10 +834,16 @@ ScriptsOnlyBuild:
     className: PlayerDetailsController
   - hash:
       serializedVersion: 2
-      Hash: 84ca66044207067e70689be2d699d1b2
+      Hash: 0e01f04950024aafef8458a27c9242ff
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CharacterInsantiate
+  - hash:
+      serializedVersion: 2
+      Hash: c205209e7a8edbd414049c17f57b239e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Combat
   - hash:
       serializedVersion: 2
       Hash: cba6cca6bb3290c4c00d709cf63843db
@@ -1151,7 +1164,7 @@ ScriptsOnlyBuild:
     className: WheelController
   - hash:
       serializedVersion: 2
-      Hash: fde956efd03b1df6e6d233db90c26e01
+      Hash: 5d064456c40f7c34690dc0c9d079accc
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Movement
@@ -1355,6 +1368,12 @@ ScriptsOnlyBuild:
     className: SplinePosition
   - hash:
       serializedVersion: 2
+      Hash: 4b8dff74c0603f3e6246514a412ffcba
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HealthBar
+  - hash:
+      serializedVersion: 2
       Hash: 8f15c253902ff4eef507927669b9dc80
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -1523,6 +1542,12 @@ ScriptsOnlyBuild:
     className: BoolInputField
   - hash:
       serializedVersion: 2
+      Hash: a26287687bdad13d8b60b237850ab4be
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Billboard
+  - hash:
+      serializedVersion: 2
       Hash: 0fd6822f6177297bd0eb4d83cc7a9030
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -1557,13 +1582,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Wallet
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: "C:/Users/ahsen/OneDrive/Masa\xFCst\xFC/Build/Dim dim dim.exe"
+  playerPath: "C:/Users/ahsen/OneDrive/Masa\xFCst\xFC/olcakkkkkkkkkkkk/Dim dim dim.exe"

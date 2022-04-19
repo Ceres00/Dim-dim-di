@@ -9,6 +9,7 @@ public class Movement : MonoBehaviourPunCallbacks
 {
 
     bool move = true;
+    public int speed;
 
     void Start()
     {
@@ -16,15 +17,10 @@ public class Movement : MonoBehaviourPunCallbacks
     }
     void Update()
     {
-        transform.Translate(Vector3.forward * 6 * Time.deltaTime);
+        transform.Translate(Vector3.forward * speed * Time.deltaTime);
     }
     public void OnTriggerEnter(Collider other)
     {
-
-        if (other.gameObject.tag == "Warriors")
-        {
-            move = false;
-        }
         if (PhotonNetwork.LocalPlayer.ActorNumber == 1)
         {
             //movement

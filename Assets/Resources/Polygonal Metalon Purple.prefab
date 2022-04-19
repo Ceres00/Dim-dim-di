@@ -748,15 +748,15 @@ GameObject:
   m_Component:
   - component: {fileID: 4673369876368086}
   - component: {fileID: 95980759410839360}
-  - component: {fileID: 5821111340409912498}
-  - component: {fileID: 5445071443808311664}
-  - component: {fileID: -8356519549625566792}
-  - component: {fileID: 8439092726746012895}
-  - component: {fileID: 601453070505179120}
-  - component: {fileID: 2653183619976229445}
+  - component: {fileID: 2146770400048732845}
+  - component: {fileID: 6364040186356395080}
+  - component: {fileID: 3886105587060495703}
+  - component: {fileID: 259231959352761961}
+  - component: {fileID: 2990275837291075712}
+  - component: {fileID: 6852327405218093844}
   m_Layer: 0
   m_Name: Polygonal Metalon Purple
-  m_TagString: Warriors
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -812,7 +812,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &5821111340409912498
+--- !u!114 &2146770400048732845
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -831,25 +831,12 @@ MonoBehaviour:
   OwnershipTransfer: 0
   observableSearch: 2
   ObservedComponents:
-  - {fileID: -8356519549625566792}
-  - {fileID: 601453070505179120}
+  - {fileID: 6364040186356395080}
+  - {fileID: 259231959352761961}
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
---- !u!114 &5445071443808311664
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1462720695320296}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b13d67bdd3b1bd4c9a9257141c3800e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parent: {fileID: 0}
---- !u!114 &-8356519549625566792
+--- !u!114 &6364040186356395080
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -865,7 +852,7 @@ MonoBehaviour:
   m_SynchronizeRotation: 1
   m_SynchronizeScale: 0
   m_UseLocal: 1
---- !u!54 &8439092726746012895
+--- !u!54 &3886105587060495703
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -877,11 +864,11 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &601453070505179120
+--- !u!114 &259231959352761961
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -897,7 +884,7 @@ MonoBehaviour:
   m_SynchronizeAngularVelocity: 0
   m_TeleportEnabled: 0
   m_TeleportIfDistanceGreaterThan: 3
---- !u!65 &2653183619976229445
+--- !u!65 &2990275837291075712
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -905,11 +892,24 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1462720695320296}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.927563, y: 1, z: 4.5477486}
-  m_Center: {x: -0.068578124, y: 1, z: 0.21667719}
+  m_Size: {x: 1.479938, y: 1.2453547, z: 3.0518343}
+  m_Center: {x: -0.0037386417, y: 1.0681772, z: 0.045149922}
+--- !u!114 &6852327405218093844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1462720695320296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b13d67bdd3b1bd4c9a9257141c3800e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
 --- !u!1 &1486048802852170
 GameObject:
   m_ObjectHideFlags: 0
@@ -1011,7 +1011,7 @@ SkinnedMeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   serializedVersion: 2
-  m_Quality: 1
+  m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
   m_Mesh: {fileID: 4300000, guid: 66ca9bf0145725543a1e8a693589f362, type: 3}
@@ -1046,8 +1046,8 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 4544944143900212}
   m_AABB:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0.2, y: 0.2, z: 0.2}
+    m_Center: {x: -0.5955523, y: 0.47306192, z: 0.000007748604}
+    m_Extent: {x: 2.277113, y: 1.2932206, z: 2.1682854}
   m_DirtyAABB: 0
 --- !u!1 &1570757768016902
 GameObject:

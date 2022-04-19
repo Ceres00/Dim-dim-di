@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a34f617f-fa76-a343-bab7-994cda8b1e85": {
+      "ProjectGuid": "a34f617f-fa76-a343-bab7-994cda8b1e85",
+      "DisplayName": "Assembly-CSharp",
+      "ColorIndex": 0
+    },
+    "3d888817-5466-9279-93b7-0ea3b8d6f11a": {
+      "ProjectGuid": "3d888817-5466-9279-93b7-0ea3b8d6f11a",
+      "DisplayName": "PhotonUnityNetworking",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
